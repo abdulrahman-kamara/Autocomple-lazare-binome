@@ -1,0 +1,61 @@
+/* le sign * represent toute le page en generale */
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(26, 50, 58);
+}
+
+
+/* le container  */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+/* represent le icone  */
+
+.container i {
+    font-size: 25px;
+    margin-left: 50vh;
+}
+
+
+/* represent le espace d'écrir pour affichier le paye au le ville de la carte */
+
+.container input {
+    border-radius: 3px;
+    height: 50px;
+    width: 500px;
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    margin-left: 150px;
+}
+
+
+/* notre carte  */
+
+#mapid {
+    height: 400px;
+    width: 900px;
+    margin-top: 8px;
+    /* cursor: pointer; */
+}
+
+
+/* notre button de recherche */
+
+button {
+    height: 53px;
+    width: 100px;
+    background-color: white;
+}
+
+.bindPopup {
+    color: red;
+}
